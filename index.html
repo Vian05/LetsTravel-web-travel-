@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/styles.css" />
+    <title>Lets Travel</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container-fluid bg-light sticky-top">
+      <div class="container-lg">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand text-primary brand" href="#">LetsTravel.</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-lg-0 m-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-primary"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Explore</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <button
+                class="btn btn-light shadow-sm text-primary"
+                type="submit"
+              >
+                My Account
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <div class="container-lg">
+      <!-- home -->
+      <div id="home" class="container-fluid mt-3 header position-relative">
+        <div class="card border-0 bg-light rounded-5 header-card">
+          <div class="row g-0">
+            <div
+              class="col-lg-7 py-lg-5 d-none d-lg-block d-xl-block d-xxl-block"
+            >
+              <div class="card-body">
+                <h1 class="card-title">
+                  Find The Best Place <br />to Stress Release
+                </h1>
+                <p class="card-text text-muted">
+                  A new way to travel by air the easy and fast way.
+                  <br />Try it now by filling out the form below!
+                </p>
+              </div>
+            </div>
+            <div class="card img-thumb border-0 col-lg-5">
+              <img
+                src="asset/image/picture.png"
+                class="img-fluid"
+                alt="pantai"
+              />
+              <div class="card-img-overlay d-lg-none text-light">
+                <h1 class="card-title">
+                  Find The Best Place <br />to Stress Release
+                </h1>
+                <p class="card-text description">
+                  A new way to travel by air the easy and fast way.
+                  <br />Try it now by filling out the form below!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card border-0 bg-transparent navigasi position-absolute start-50 translate-middle"
+        >
+          <div class="nav-section">
+            <ul class="nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-bg-primary radius"
+                  aria-current="page"
+                  href="#"
+                  >Active</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hotel</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Form Section -->
+          <div class="card-body card-radius bg-white shadow-lg">
+            <div class="d-lg-flex">
+              <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <div class="card border-0 mb-2">
+                    <div
+                      class="card-body p-2 d-inline-flex align-items-center flight"
+                    >
+                      <img src="asset/icon/locations.svg" alt="location icon" />
+                      <div class="card-item">
+                        <h5 class="card-title">Pulau Bali</h5>
+                        <p class="card-text text-muted">Select the locations</p>
+                      </div>
+                      <i
+                        class="fa-solid fa-location-crosshairs text-primary"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <!-- Location -->
+                <div class="col-6 col-md-4 col-lg-3">
+                  <div class="card border-0 mb-2">
+                    <div
+                      class="card-body p-2 d-inline-flex align-items-center flight"
+                    >
+                      <img src="asset/icon/calender.svg" alt="calendar icon" />
+                      <div class="card-item">
+                        <h5 class="card-title">02 Nov 2023</h5>
+                        <p class="card-text text-muted">Choose date flight</p>
+                      </div>
+                      <i
+                        class="fa-solid fa-location-crosshairs text-primary"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Calendar -->
+
+                <!-- Flight Type -->
+                <div class="col-6 col-md-4 col-lg-3">
+                  <div class="card border-0 mb-2">
+                    <div
+                      class="card-body p-2 d-inline-flex align-items-center flight"
+                    >
+                      <img src="asset/icon/kursi.svg" alt="kursi icon" />
+                      <div class="card-item">
+                        <h5 class="card-title">Economy</h5>
+                        <p class="card-text text-muted">Choose flight type</p>
+                      </div>
+                      <i
+                        class="fa-solid fa-location-crosshairs text-primary"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-md-12 col-lg-3">
+                  <div
+                    class="d-flex justify-content-md-center justify-content-start"
+                  >
+                    <button class="btn btn-primary" type="submit">
+                      <img src="asset/icon/search.svg" alt="search icon" />
+                      Search Flight
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home end -->
+
+      <!-- abour -->
+
+      <div id="about" class="container-fluid mt-5 mb-5">
+        <div class="card border-0">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 m-auto">
+              <div class="card-body text-lg-start text-center text-xl-start">
+                <h5 class="card-title text-primary title-bar">Our Service</h5>
+                <p class="card-text title">
+                  We Offer <br class="d-lg-block d-md-none d-sm-none" />Best
+                  Service
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xl-4 col-12">
+              <!-- Service 1 -->
+              <div
+                class="card-body d-flex flex-column flex-md-row align-items-md-start"
+              >
+                <div class="card-item mb-md-3 mb-0" style="width: 6rem">
+                  <img src="asset/icon/cloud.svg" alt="cloud icon" />
+                </div>
+                <div class="card-item">
+                  <h5 class="card-title service">Calculated Weather</h5>
+                  <p class="card-text description">
+                    A new way to travel by air the easy and fast way.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Service 2 -->
+              <div
+                class="card-body d-flex flex-column flex-md-row align-items-md-start mt-md-3"
+              >
+                <div class="card-item mb-md-3 mb-0" style="width: 6rem">
+                  <img src="asset/icon/building.svg" alt="building icon" />
+                </div>
+                <div class="card-item">
+                  <h5 class="card-title service">Best Place to Stay</h5>
+                  <p class="card-text description">
+                    A new way to travel by air the easy and fast way.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xl-4 col-12 order-lg-1">
+              <!-- Service 3 -->
+              <div
+                class="card-body d-flex flex-column flex-md-row align-items-md-start"
+              >
+                <div class="card-item mb-md-3 mb-0" style="width: 6rem">
+                  <img src="asset/icon/plane.svg" alt="plane icon" />
+                </div>
+                <div class="card-item">
+                  <h5 class="card-title service">Best Experiences Flight</h5>
+                  <p class="card-text description">
+                    A new way to travel by air the easy and fast way.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Service 4 -->
+              <div
+                class="card-body d-flex flex-column flex-md-row align-items-md-start mt-md-3"
+              >
+                <div class="card-item mb-md-3 mb-0" style="width: 6rem">
+                  <img src="asset/icon/touch.svg" alt="touch icon" />
+                </div>
+                <div class="card-item">
+                  <h5 class="card-title service">Easy-To-Use</h5>
+                  <p class="card-text description">
+                    A new way to travel by air the easy and fast way.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About end -->
+
+      <!-- Popular Trip Packages -->
+
+      <div class="container-fluid mb-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card border-0">
+              <img src="asset/image/great.png" class="card-img" alt="tower" />
+
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end recomendations"
+              >
+                <div class="card-text d-flex rating mb-2">
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                </div>
+                <h5 class="card-title text-white destination-name">
+                  Greatest Tower
+                </h5>
+                <div class="place d-flex gap-1 align-items-center">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #d9d9d9"
+                  ></i>
+                  <p class="card-text place-name">Bali Indonesia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card border-0">
+              <img src="asset/image/beachv.png" class="card-img" alt="beach" />
+
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end recomendations"
+              >
+                <div class="card-text d-flex rating mb-2">
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                  <i class="fa-solid fa-star" style="color: orange"></i>
+                </div>
+                <h5 class="card-title text-white destination-name">
+                  Greatest Tower
+                </h5>
+                <div class="place d-flex gap-1 align-items-center">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #d9d9d9"
+                  ></i>
+                  <p class="card-text place-name">Bali Indonesia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-0">
+              <div class="card-body px-2">
+                <div class="card-item p-2">
+                  <h5
+                    class="card-title text-primary text-center text-lg-start text-xl-start text-xxl-start title-bar"
+                  >
+                    Our Package
+                  </h5>
+                  <h3
+                    class="card-title main-title text-center text-lg-start text-xl-start text-xxl-start"
+                  >
+                    Populer Trip Packages
+                  </h3>
+                </div>
+
+                <div class="card-item p-lg-2">
+                  <div
+                    class="card-text text-muted description text-center text-lg-start text-xl-start text-xxl-start"
+                  >
+                    A new way to travel by air the easy and fast way. <br />
+                    Try it now by filling out the form below!
+                  </div>
+                </div>
+
+                <div class="card-item d-flex justify-content-between p-2 mt-2">
+                  <div
+                    class="card-item text-center text-lg-start text-xl-start"
+                  >
+                    <div class="card-text fw-bold">150+</div>
+                    <div class="card-text text-muted">Destination</div>
+                  </div>
+                  <div
+                    class="card-item text-center text-lg-start text-xl-start"
+                  >
+                    <div class="card-text fw-bold text-lg-start">350+</div>
+                    <div class="card-text text-muted">Luxury Hotels</div>
+                  </div>
+                  <div
+                    class="card-item text-center text-lg-start text-xl-start"
+                  >
+                    <div class="card-text fw-bold">100k+</div>
+                    <div class="card-text text-muted">Happy Tourist</div>
+                  </div>
+                </div>
+
+                <div
+                  class="card-item p-2 mt-3 text-center text-lg-start text-xl-start"
+                >
+                  <button class="btn btn-primary">Choose Package</button>
+                  <a href="#" class="btn text-muted">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Popular Trip Packages -->
+
+      <!-- Explore-->
+
+      <div id="explore" class="container-fluid mb-5">
+        <div class="heading mb-5">
+          <h3 class="title text-center main-title">Explore Natural Packages</h3>
+          <p class="text-muted text-center description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            rerum.<br />Lorem ipsum, dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2 mb-3">
+            <div class="card border-0 shadow">
+              <div class="image position-relative">
+                <img
+                  src="asset/image/waterfall.png"
+                  class="card-img-top"
+                  alt="waterfall haven"
+                />
+                <div
+                  class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+                >
+                  <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                  <span class="text-white">5.0</span>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title destination-name">Waterfall Haven</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Selajan, Iceland</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
+            <div class="card border-0 shadow">
+              <img
+                src="asset/image/montain.png"
+                class="card-img-top"
+                alt="Greatest Mountain"
+              />
+              <div
+                class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+              >
+                <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                <span class="text-white">5.0</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title destination-name">Greatest Mountain</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Wildsee, Italy</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2 mb-3">
+            <div class="card border-0 shadow">
+              <img
+                src="asset/image/coconut.png"
+                class="card-img-top"
+                alt="coconut tree river"
+              />
+              <div
+                class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+              >
+                <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                <span class="text-white">5.0</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title destination-name">Coconut Tree River</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Lombok, Indonesia</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2 mb-3">
+            <div class="card border-0 shadow">
+              <img
+                src="asset/image/circle.png"
+                class="card-img-top"
+                alt="Circle Beach Play"
+              />
+              <div
+                class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+              >
+                <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                <span class="text-white">5.0</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title destination-name">Circle Beach Play</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Lombok, Indonesia</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2">
+            <div class="card border-0 shadow">
+              <img
+                src="asset/image/ground.png"
+                class="card-img-top"
+                alt="High Ground"
+              />
+              <div
+                class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+              >
+                <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                <span class="text-white">5.0</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title destination-name">High Ground</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Bali, Indonesia</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2">
+            <div class="card border-0 shadow">
+              <img
+                src="asset/image/dino.png"
+                class="card-img-top"
+                alt="Dinosaurus Land"
+              />
+              <div
+                class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+              >
+                <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                <span class="text-white">5.0</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title destination-name">Dinosaurus Land</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Bali, Indonesia</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2">
+            <div class="card border-0 shadow">
+              <img
+                src="asset/image/turtle.png"
+                class="card-img-top"
+                alt="Turtle Land"
+              />
+              <div
+                class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+              >
+                <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                <span class="text-white">5.0</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title destination-name">Turtle Land</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Bali, Indonesia</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2">
+            <div class="card border-0 shadow">
+              <img
+                src="asset/image/beach.png"
+                class="card-img-top"
+                alt="beach"
+              />
+              <div
+                class="rate d-flex align-items-center position-absolute top-0 end-0 m-2 p-1 px-3 rounded-pill"
+              >
+                <i class="fa-solid fa-star me-1" style="color: orange"></i>
+                <span class="text-white">5.0</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title destination-name">The Clifside Beach</h5>
+                <div class="item d-flex align-items-center gap-1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #7b7b7b"
+                  ></i>
+                  <p class="card-text text-muted">Bali, Indonesia</p>
+                </div>
+                <div
+                  class="card-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="card-text">
+                    <b>$6</b><span class="text-muted">/person</span>
+                  </div>
+                  <button href="#" class="btn btn-primary px-3">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-more text-center mt-4">
+          <button class="btn btn-outline-dark">View More</button>
+        </div>
+      </div>
+
+      <!-- explore end -->
+
+      <!-- contact -->
+
+      <div
+        id="contact"
+        class="container-fluid d-flex justify-content-center bg-primary-subtle p-5 custom-radius diskon position-relative"
+      >
+        <div class="card-img-overlay overflow-hidden">
+          <img src="asset/image/vector.svg" alt="map" />
+        </div>
+        <div class="card text-center bg-transparent border-0">
+          <div class="card-body">
+            <h5 class="card-title title-bar text-primary">New User</h5>
+            <h5 class="card-title main-title disc-title">
+              Dont Miss The 50% Discount <br class="d-none d-lg-block" />
+              If You Register Today
+            </h5>
+            <p class="card-text disc-description text-muted mb-4">
+              Lets maximize your next holiday with us
+              <br class="d-none d-lg-block" />with the best experience.
+            </p>
+            <button class="btn btn-primary">Register Account</button>
+          </div>
+        </div>
+        <div
+          class="circle position-absolute top-0 start-100 translate-middle d-none d-lg-block d-xl-block d-xxl-block"
+        >
+          <img src="asset/icon/love.png" alt="love" />
+        </div>
+
+        <div
+          class="card border-0 testimoni position-absolute top-100 start-0 translate-middle shadow-sm"
+        >
+          <div class="card-body">
+            <div class="card-text d-flex mb-2">
+              <i class="fa-solid fa-star" style="color: orange"></i>
+              <i class="fa-solid fa-star" style="color: orange"></i>
+              <i class="fa-solid fa-star" style="color: orange"></i>
+              <i class="fa-solid fa-star" style="color: orange"></i>
+              <i class="fa-solid fa-star" style="color: orange"></i>
+            </div>
+
+            <div class="card-title">
+              <p class="argument">
+                Thank you for helping. <br />
+                my vacation Amazing!
+              </p>
+            </div>
+
+            <div class="card-item d-flex gap-2">
+              <img
+                src="asset/image/photo.png"
+                class="w-auto rounded-circle"
+                alt="people"
+              />
+              <div class="car-item">
+                <h5 class="username">Siapa Saja</h5>
+                <h5 class="role">Backpacker</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact end -->
+    </div>
+
+    <footer class="container-fluid d-flex justify-content-center bg-dark p-5">
+      <div class="row w-100 d-flex justify-content-between">
+        <div class="col-lg-3 col-md-4 col-6 text-light w-auto">
+          <a href="#" class="navbar-brand">Lets Travel</a>
+          <br /><br />
+
+          <p>Copyritght @2023.<br />All Right Reversed.</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 w-auto">
+          <p class="text-light">Page Menus</p>
+          <ul class="text-secondary list-unstyled px-0">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>My Account</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4 w-auto">
+          <p class="text-light">Our Product</p>
+          <ul class="text-secondary list-unstyled px-0">
+            <li>Booking Flight</li>
+            <li>Booking Hotels</li>
+            <li>Trip Package</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4 w-auto">
+          <p class="text-light">Sosial Media</p>
+          <ul class="text-secondary list-unstyled px-0">
+            <li>Instagram</li>
+            <li>Tiktok</li>
+            <li>Facebook</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootsrap cdn -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="asset/js/main.js"></script>
+  </body>
+</html>

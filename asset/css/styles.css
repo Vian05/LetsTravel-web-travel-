@@ -1,0 +1,366 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .navbar{
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(15px); 
+} */
+
+
+.brand {
+  font-size: 24px;
+  font-weight: 600; 
+}
+
+.header .header-card h1{
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.header .header-card p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.radius {
+    border-top-left-radius: 10px;
+  }
+
+.card-radius {
+    border-radius: 0px 10px 10px 10px;
+}
+
+.custom-radius {
+    border-radius: 70px 20px 20px 20px;
+    height: 425px; 
+}
+
+.img-thumb img{
+  border-radius: 0 24px 24px 0;
+}
+
+.img-thumb .card-img-overlay{
+  margin-top: 2em;
+}
+
+.img-thumb .card-img-overlay .description{
+  margin-top: 2em;
+}
+
+#home {
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
+
+
+.navigasi{
+  top: 80%;
+  width: 98%;
+}
+
+
+.rating {
+  width: 25px;
+}
+
+.flight {
+  border-right: solid #EEE 1px;
+
+}
+
+.flight .card-item {
+  width: 12.5em;
+}
+
+.flight i{
+  margin-right: 0;
+  margin-left: 0.8em;
+}
+
+.flight h5 {
+  line-height: 0.2em;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .flight h5 {
+    font-size: 14px;
+  }
+
+  .flight a {
+    font-size: 12px;   
+  }
+  
+}
+
+@media (max-width: 976px) {
+  .flight h5 {
+    font-size: 16px;
+  }
+
+  .flight a {
+    font-size: 14px;   
+  }
+
+  .navigasi{
+    top: 70%;
+  }
+}
+
+.flight a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.2em;
+}
+.flight img {
+  margin-right: 0.2em;
+}
+
+.title-bar {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#about .title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#about .service {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .title-bar {
+    font-size: 14px;
+  }
+
+  .header .header-card h1{
+    font-size: 36px;
+  }
+
+  #about .title {
+    font-size: 24px;
+  }
+
+  #about .service {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .title-bar {
+    font-size: 14px;
+  }
+
+  .header .header-card h1{
+    font-size: 42px;
+  }
+
+  #about .title {
+    font-size: 30px;
+  }
+
+  #about .service {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  #about .card-item img {
+    width: 30px; 
+    height: 30px; 
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #about .card-item img {
+    width: 35px; 
+    height: 35px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #about .card-item img {
+    width: 35px; 
+    height: 35px; 
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #about .card-item img {
+    width: 35px; 
+    height: 35px; 
+  }
+}
+
+@media (min-width: 1200px) {
+  #about .card-item img {
+    width: 40px; 
+    height: 40px; 
+  }
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: 600; 
+}
+
+.destination-name{
+  font-size: 18px;
+  font-weight: 600; 
+}
+
+.place-name{
+  font-size: 16px;
+  font-weight: 400; 
+  color: #EDEDED;
+}
+
+
+.recomendations{
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 165.77%); 
+}
+
+.rate{
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(15px); 
+}
+
+.destination-place {
+  font-size: 16px;
+  font-weight: 400; 
+}
+@media (max-width: 576px) {
+  .main-title {
+    font-size: 24px;
+  }
+
+  .destination-name {
+    font-size: 16px;
+  }
+
+  .place-name{
+    font-size: 14px;
+  }
+
+  .destination-place {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .main-title {
+    font-size: 30px;
+  }
+
+  .destination-name {
+    font-size: 16px;
+  }
+
+  .place-name{
+    font-size: 14px;
+  }
+
+  .destination-place {
+    font-size: 14px;
+  }
+}
+
+
+
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.13));
+}
+
+.disc-title {
+  line-height: 140%;
+}
+
+.disc-description{
+  line-height: 30px;
+}
+.argument{
+  font-size: 16px;
+  font-weight: 500; 
+}
+
+.testimoni {
+  width: 100%; 
+  max-width: 250px; 
+  border-radius: 24px;
+}
+
+.username{
+  font-size: 16px;
+  font-weight: 500; 
+}
+
+.role{
+  font-size: 14px;
+  font-weight: 400; 
+}
+
+.diskon{
+  margin-bottom: 10em;
+}
+
+.testimoni{
+  margin-left: 10em;
+}
+
+@media (max-width: 768px) {
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  #contact .main-title {
+    font-size: 24px;
+  }
+
+  .circle img{
+    width: 30px;
+  }
+  .testimoni {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 576px) {
+
+
+  #contact .main-title {
+    font-size: 20px;
+  }
+}
+
+
